@@ -1,4 +1,3 @@
-
 import math
 import os
 import random
@@ -9,13 +8,13 @@ import sys
 
 if __name__ == '__main__':
     n = int(input().strip())
-
-    if (n % 2) != 0:
+    
+    if n % 2 != 0:
         print("Weird")
     else:
-        if n >= 2 & n <= 5:
+        if n >= 2 and n <= 5:
             print("Not Weird")
-        elif n >= 6 & n <= 20:
+        elif n >= 6 and n <= 20:
             print("Weird")
-        else :
+        else:
             print("Not Weird")
